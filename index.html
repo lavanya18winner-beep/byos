@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>It's Story Time | Enter Another World</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="code.css">
+</head>
+
+
+<body data-theme="Horror">
+
+<div class="container">
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="moon-wrapper">
+
+            <img
+                src="https://mycharisma.com/wp-content/uploads/2025/03/Blood-moon.png"
+                alt="Blood moon"
+                class="Story-time"
+            >
+
+        </div>
+
+        <h1>WELCOME ALL!</h1>
+
+        <p class="mystery-line">
+            ✦ EVERY CHOICE UNLOCKS A NEW WORLD ✦
+        </p>
+
+        <p class="subtitle">
+            It's the perfect day for a story.
+            <br>
+            <span>Choose your path. Discover your tale.</span>
+        </p>
+
+    </section>
+
+
+    <div class="section-divider">
+        THE WORLD OF STORIES
+    </div>
+
+
+    <!-- SURPRISE ME -->
+
+    <section class="surprise-section">
+
+        <p class="surprise-text">
+            Can't decide what to read? Let fate choose for you.
+        </p>
+
+        <button
+            class="surprise-btn"
+            id="surpriseBtn"
+            type="button"
+        >
+            ✨ SURPRISE ME
+        </button>
+
+    </section>
+
+
+    <!-- SELECTION -->
+
+    <div class="steps">
+
+        <div class="step-card">
+
+            <div class="step-number">1</div>
+
+            <label for="Genre">
+                Select Story Type
+            </label>
+
+            <select id="Genre">
+
+                <option value="">-- Choose your type --</option>
+
+                <option value="Horror">🩸 Horror</option>
+
+                <option value="History">🏛️ History</option>
+
+                <option value="Mystery">🔎 Mystery</option>
+
+            </select>
+
+        </div>
+
+
+        <div class="step-card">
+
+            <div class="step-number">2</div>
+
+            <label for="Genre-subtype">
+                Select Your Story
+            </label>
+
+            <select id="Genre-subtype" disabled>
+
+                <option value="">
+                    -- Choose a Type First --
+                </option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <!-- STORY COUNTER -->
+
+    <div class="counter" id="counter">
+        <span>15</span> STORIES WAITING TO BE DISCOVERED
+    </div>
+
+
+    <!-- STORY RESULT -->
+
+    <div id="storyInfo"></div>
+
+
+    <!-- DISCOVERY SECTION -->
+
+    <section class="discovery">
+
+        <h3>✦ A LITTLE REMINDER ✦</h3>
+
+        <p>
+            Every book holds a different universe.
+            Every page hides a new secret.
+            Your next adventure is just one choice away.
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        ✦ Every story begins with a choice
+        <span>•</span>
+        Happy Reading ✦
+    </div>
+
+</div>
+
+
+<script src="code.js"></script>
+
+</body>
+</html>
